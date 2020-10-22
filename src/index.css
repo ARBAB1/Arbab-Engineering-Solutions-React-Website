@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+  font-family: 'Mulish', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+ .navbar-brand{
+   color: #565387 !important;
+   font-size: 1.9rem; 
+
+ }
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+ .navbar a:hover{
+   color: #3498db!important;
+ }
+ .menu_active{
+   font-weight: bold;
+   border-bottom: 1px solid #565387;
+ }
+ strong{
+   font-size: 800;
+   color: #3498db;
+ }
+ .btn-outline-primary{
+  display: inline-block;
+   padding: 10px 30px;
+   font-weight: 500;
+   border-radius: 50px !important;
+   transition: 0.5s;
+   
+ }
+
+ #header{
+   margin-top: 100px;
+   
+ }
+ .header-img{
+   text-align: right;
+ }
+ .animated{
+   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
+ }
+
+ @-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+ }
+
+ 
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+ }
+
+ .verSpace{
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
